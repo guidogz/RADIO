@@ -1,1 +1,1 @@
-OSeMOSYS-CR's documentation is available on [Read the Docs](https://osemosys-cr.readthedocs.io/en/latest/).
+Documentación disponible en [Read the Docs](https://radio.readthedocs.io/en/latest.html/).
