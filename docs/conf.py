@@ -67,7 +67,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'CLEWCR'
+project = u'Regulación Adaptativa'
 copyright = u'2021, Guido Godínez Zamora'
 author = u'Guido Godínez Zamora'
 
