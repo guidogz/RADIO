@@ -68,15 +68,15 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'CLEWCR'
-copyright = u'2020, EPERLab-UCR'
-author = u'EPERLab-UCR'
+copyright = u'2021, Guido Godínez Zamora'
+author = u'Guido Godínez Zamora'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = u'EPERlab-UCR'
+version = u'Guido Godínez Zamora'
 # The full version, including alpha/beta/rc tags.
 release = u'1.0.a'
 
@@ -134,7 +134,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'eperdoc'
+htmlhelp_basename = 'Documentación'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -161,8 +161,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'eperdoc.tex', u'eperdoc Documentation',
-     u'Jam Angulo-Paniagua', 'manual')
+    (master_doc, 'eperdoc.tex', u'Documentation',
+     u'Guido Godínez Zamora')
 ]
 
 
@@ -171,7 +171,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'eperdoc', u'eperdoc Documentation',
+    (master_doc, 'Documentación', u'Documentación',
      [author], 1)
 ]
 
@@ -182,8 +182,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'eperdoc', u'eperdoc Documentation',
-     author, 'eperdoc', 'One line description of project.',
+    (master_doc, 'Documentación', u'Documentaciónn',
+     author, 'Documentación', 'One line description of project.',
      'Miscellaneous'),
 ]
 
