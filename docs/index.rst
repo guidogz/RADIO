@@ -15,4 +15,3 @@ Adaptación regulatoria
    03Modelado_simulacion
    04CasoCR
    05CasoPeru
-   07Adaptabilidad
