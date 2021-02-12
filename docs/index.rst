@@ -10,6 +10,9 @@ Adaptación regulatoria
    :maxdepth: 2
    :caption: Contents
 
-   00Abreviations
    01Introduction
-   02EnergyModelFramework
+   02Metodologia
+   03Modelado_simulación
+   04CasosCR
+   05CasoPeru
+   07Adaptabilidad
