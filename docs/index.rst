@@ -12,7 +12,7 @@ Adaptación regulatoria
 
    01Introduction
    02Metodologia
-   03Modelado_simulación
-   04CasosCR
+   03Modelado_simulacion
+   04CasoCR
    05CasoPeru
    07Adaptabilidad
