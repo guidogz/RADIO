@@ -67,7 +67,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Regulación Adaptativa'
+project = u'RADIO'
 copyright = u'2021, Guido Godínez Zamora'
 author = u'Guido Godínez Zamora'
 
