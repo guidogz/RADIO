@@ -42,7 +42,7 @@ The technological and socioeconomic transformation towards sustainability is a c
 
 The design a computer system starts with the abstraction of a universe to be a model. Then it is necessary to define paradigms and methodologies, establish the infrastructure and software, create an architecture and finally implement it in a modular way. For example, the construction of energy models begins with a simple representation that captures the general behaviour of the systems and progressively grows to study situations that are more complex by increasing granularity, incorporating entities and resources or new algorithms. Likewise, the computational requirements also increase and incorporate new people with different knowledge and perspectives. In this context, traditional desktop systems represent a limiting factor for researchers concerning collaborative work, simulation times, and the common use of data. The alternative to solve this problem is to use cloud computing to implement web-based platforms for modelling and simulation. It represents several advantages of this web service, such as accessibility, scalability, maintenance, controlled access, and licensing. Figure \ref{framework} shows the general concept to develop.
 
-.. figure:: figures/Approach.png
+.. figure:: Figures/Approach.png
    :align:   center
    :width:   700 px
 
