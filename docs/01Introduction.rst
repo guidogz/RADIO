@@ -48,9 +48,4 @@ The design a computer system starts with the abstraction of a universe to be a m
 
    *Figure 1.1: Proposal of an open-source decision-making framework for sustainable planning in energy and transport sectors.*
 
-************
-Bibliography
-************
 
-.. bibliography:: references.bib
-   :style: plain
