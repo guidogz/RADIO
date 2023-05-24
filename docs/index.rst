@@ -13,5 +13,4 @@ RADIO: Robust Adaptive Decision for Investments and Operation
    01Introduction
    02Metodologia
    03Modelado_simulacion
-   04CasoCR
-   05CasoPeru
+ 
