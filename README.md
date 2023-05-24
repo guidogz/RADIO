@@ -1,1 +1,1 @@
-# Regulacion_Adaptativa
+# Robust Adaptive Decision for Investments and Operation
