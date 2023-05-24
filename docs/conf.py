@@ -68,7 +68,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'RADIO'
-copyright = u'2021, Guido Godínez Zamora'
+copyright = u'2023, Guido Godínez Zamora'
 author = u'Guido Godínez Zamora'
 
 # The version info for the project you're documenting, acts as replacement for
