@@ -47,6 +47,8 @@ extensions = ['sphinx.ext.autodoc',
     'sphinxcontrib.bibtex'] # Agregado napoleon extension
     
 bibtex_bibfiles = ['references.bib']  
+bibtex_encoding = 'latin'
+
 #Agregado
 napoleon_google_docstring = False
 napoleon_use_param = False
