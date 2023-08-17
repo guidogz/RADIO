@@ -29,7 +29,7 @@ The debate on the energy transition should center on attaining social objectives
 
 This framework contains functionalities related to the acquisition and preparation of data for modeling, sourced from dispersed databases, government policies, market references, or previous research. A second external source of information is generated during the participatory process with stakeholders and decision-makers, which is linked to strategies and key metrics. A second source of information is generated during the participatory process with stakeholders and decision-makers, which is linked to the definition of strategies, uncertainties, and performance metrics.With this information, data analysts and modellers define base scenarios and additional plausible futures by formal experimental design. Subsequently, numerous simulations are executed, ranging from hundreds to thousands, to generate empirical evidence and unveil vulnerabilities or drawbacks associated with proposed strategies. The culmination, effectively communicate through visualization tools outcomes to stakeholders, encouraging valuable feedback.
 
-.. figure:: FIGURAS/General_Framework.png
+.. figure:: Figures/General_Framework.png
    :align:   center
    :width:   700 px
 
@@ -37,7 +37,7 @@ This framework contains functionalities related to the acquisition and preparati
 
 The design a computer system starts with the abstraction of a universe to be a model. Then it is necessary to define paradigms and methodologies, establish the infrastructure and software, create an architecture and finally implement it in a modular way. Figure \ref{framework_Specific} illustrates the proposed methodological framework, which integrates an analysis sequence based on DMDU principles with a computational platform. The primary phase encompasses the generation of a decision-making matrix, acting as the input for the subsequent multi-objective optimization process employing genetic algorithms. Within this phase, the evaluation of investment portfolios occur across diverse potential scenarios through computational experimental design, incorporating Latin-hypercube sampling. A subsequent stage aims to reveal patterns within the expansive dataset and  vulnerability zones, leveraging machine learning algorithms such as logistic regression and classification by decision trees. The ultimate stage involves the establishment of pathways to prioritize strategies based on performance metrics. In accordance with customary practices observed in methodological frameworks, contributions stem from the development of computational aplication that integrate various other computational tools. In this case, we introduce new python package called RADIO: Robust Adaptive Decision-making for Investments and Operations
 
-.. figure:: FIGURAS/Methodological_Framework.png
+.. figure:: Figures/Methodological_Framework.png
    :align:   center
    :width:   700 px
 
