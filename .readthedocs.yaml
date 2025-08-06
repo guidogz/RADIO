@@ -1,20 +1,17 @@
 version: 2
 
-#conda:
-#    environment: conda/environment.yml
-
 sphinx:
-    configuration: conf.py
+  configuration: conf.py
 
 build:
-    image: latest
+  image: latest
 
 formats:
   - pdf
 
 python:
-    install:
-      - method: pip
-        path: .
-        extra_requirements:
-         - docs
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
