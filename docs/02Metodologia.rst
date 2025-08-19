@@ -1,7 +1,7 @@
 2. Methodology
 =======================================
 
-2.1 Participatory processes
+2.1 Scenario building
 +++++++++
 2.2 Moodelling and simulation
 +++++++++
