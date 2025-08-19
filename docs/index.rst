@@ -12,3 +12,4 @@ RADIO: Robust Adaptive Decision for Investments and Operation
 
    01Introduction
    02Methodology
+   03LinearModel
