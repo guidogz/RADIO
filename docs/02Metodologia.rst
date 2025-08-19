@@ -1,9 +1,9 @@
-2. methodology
+2. Methodology
 =======================================
 
 2.1 Participatory processes
 +++++++++
-2.2 Moodeling and simulation
+2.2 Moodelling and simulation
 +++++++++
 2.3 Optimization
 +++++++++
