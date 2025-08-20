@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-RADIO: Robust Adaptive Decision for Investments and Operation
+RADIO: Robust Adaptive Decision for Investments and Operations
 =====================================================================================
 
 .. toctree::
@@ -14,6 +14,8 @@ RADIO: Robust Adaptive Decision for Investments and Operation
    02Methodology
    03LinearModel
    04EnergyModel
-   05ScenarioBuilding 
-   06ControlLoop
-   07Regulation
+   05ScenarioBuilding
+   06Vulnerability
+   07ControlLoop
+   08Regulation
+   09Pathways
