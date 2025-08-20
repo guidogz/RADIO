@@ -1,2 +1,2 @@
-7. Dynamic Regulation
+8. Dynamic Regulation
 ======================
