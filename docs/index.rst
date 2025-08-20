@@ -13,5 +13,7 @@ RADIO: Robust Adaptive Decision for Investments and Operation
    01Introduction
    02Methodology
    03LinearModel
-   04EnergyModelPower
+   04EnergyModel
    05ScenarioBuilding 
+   06ControlLoop
+   07AdaptiveStrategies
