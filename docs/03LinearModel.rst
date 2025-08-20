@@ -1,20 +1,20 @@
 3. Linear Programming Model
 =======================================
 
-1. Modelling Approach
+3.1 Modelling Approach
 +++++++++++++++++++++++++++
 
 scope
 
-2. Mathematical Formulation
+3.2 Mathematical Formulation
 +++++++++++++++++++++++++++
 
 - Decision variables, parameter..
 
-3. Objective function
+3.3 Objective function
 +++++++++++++++++++++++++++
 
-4. Constraints
+3.4 Constraints
 +++++++++++++++++++++++++++
 
 - Energy balance (supply = demand)
