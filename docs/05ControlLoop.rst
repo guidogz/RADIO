@@ -1,4 +1,4 @@
-3. Closed loop control formulation 
+3. Closed-loop control formulation 
 =======================================
 
  
