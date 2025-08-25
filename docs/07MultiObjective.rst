@@ -1,2 +1,2 @@
-7. Multi-Objective Trade-off Analysis
+7. Multi-Objective Trade-Off Analysis
 =======================================
