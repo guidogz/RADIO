@@ -1,4 +1,4 @@
-5. Exploratory modelling 
+5. Exploratory Modelling 
 =======================================
 
 (i) A Business-as-usual (BAU) scenario,
@@ -13,6 +13,7 @@
 
 5.3 Climate Change Vulnerability 
 +++++++++
+
 
 
 
