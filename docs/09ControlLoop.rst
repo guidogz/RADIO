@@ -1,4 +1,4 @@
-9. Closed-loop control formulation 
+9. Closed-Loop Control Formulation 
 =======================================
 
  
