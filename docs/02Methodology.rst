@@ -1,4 +1,4 @@
-2. Methodology
+2. Analytical Approach
 =======================================
 
 2.1 Energy modelling 
