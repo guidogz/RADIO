@@ -16,9 +16,9 @@ RADIO: Robust Adaptive Decision for Investments and Operations
    04EnergyModel
    05ScenarioBuilding
    06Vulnerability
-   07ControlLoop
-   08Regulation
-   09Pathways
-   10MultiObjective
-   11Resilience
+   07MultiObjective
+   08Resilience
+   09ControlLoop
+   10Regulation
+   11Pathways   
    12UsingRADIO
