@@ -1,2 +1,2 @@
-8. Robustness and Resilience Assessment
+8. Resilience Assessment
 ===================================
