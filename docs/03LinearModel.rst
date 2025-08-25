@@ -1,4 +1,4 @@
-3. Linear Programming Model
+3. Linear Programming Structure
 =======================================
 
 3.1 Modelling Approach
