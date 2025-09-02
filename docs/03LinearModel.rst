@@ -38,6 +38,7 @@ Objective function – total costs should be minimized
 +++++++++++++++++++++++++++
 
 Generation must meet demand
+
 .. math::
 
    \sum_{t \in T} FuelProductionByTechnology_{y,r,h,t,f}
@@ -53,6 +54,7 @@ Generation must meet demand
 
 
 Calculate the total cost
+
 .. math::
 
    \left( \sum_{f \in F} \sum_{h \in H} FuelProductionByTechnology_{y,r,h,t,f} \right)
