@@ -39,6 +39,15 @@ where *ϕ* corresponds to operators, *μ* is the media  of *ϕ*, *θ* is a coeff
 This forecasting model gives good approximations of the data registered by institutions. The estimation begins with the analysis and forecasting of the time series corresponding to the primary sources. With these long term values, a specific trend is fixed by using the shares defined in the base year. A Hierarchical process was develop considering that the shares by each sector are the same on the base year. Figure 3.2 shows the general results of the projections and general annual demands.
 
 
+Figure 4.1 presents the historical trending of energy consumption by sector. 
+
+.. figure:: img/Energy_Forecast_Plot.png
+   :align:   center
+   :width:   600 px
+   
+   *Figure 3.1: Historical and Forecasting electricity consumption by sector in Costa Rica* 
+
+
 
 -Specified Annual Demand
 
