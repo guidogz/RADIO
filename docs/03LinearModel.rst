@@ -65,6 +65,7 @@ Calculate the total cost
 
 
 Salvage value (zero and positive cases)
+
 .. math::
 
    SalvageValue_{y,r,t} =
@@ -77,6 +78,7 @@ Salvage value (zero and positive cases)
 
 
 Dispatchable production limited by installed capacity
+
 .. math::
 
    FuelProductionByTechnology_{y,r,h,t,f}
@@ -84,6 +86,7 @@ Dispatchable production limited by installed capacity
 
 
 Variable renewables (must equal maximum output)
+
 .. math::
 
    FuelProductionByTechnology_{y,r,h,t,f}
@@ -91,6 +94,7 @@ Variable renewables (must equal maximum output)
 
 
 Use function
+
 .. math::
 
    FuelUseByTechnology_{y,r,h,t,f}
@@ -98,6 +102,7 @@ Use function
 
 
 Technology emissions
+
 .. math::
 
    \sum_{f \in F} \sum_{h \in H} FuelProductionByTechnology_{y,r,h,t,f} \cdot EmissionRatio_{t}
@@ -105,6 +110,7 @@ Technology emissions
 
 
 Annual emissions limit
+
 .. math::
 
    \sum_{t \in T} \sum_{r \in R} AnnualTechnologyEmissions_{y,r,t}
@@ -112,12 +118,14 @@ Annual emissions limit
 
 
 Max installed capacity
+
 .. math::
 
    AccumulatedCapacity_{y,r,t} \leq MaxCapacity_{y,r,t}
 
 
 Capacity accounting
+
 .. math::
 
    \sum_{\substack{yy \in Y \\ yy \leq y, \; yy + OperationalLife_t > y}} NewCapacity_{yy,r,t}
@@ -195,6 +203,7 @@ e) Max storage level
 
 
 13. Storage salvage value
+
 .. math::
 
    StorageSalvageValue_{y,r,s} =
@@ -204,6 +213,7 @@ e) Max storage level
       \left(1 - \dfrac{\max(Y) - y + 1}{StorageOperationalLife_s}\right),
       & \text{si } y + StorageOperationalLife_s - 1 > \max(Y)
    \end{cases}
+
 
 14. Trade constraints
 
@@ -223,6 +233,7 @@ e) Max storage level
 
 
 15. Total emission limit (model horizon)
+
 .. math::
 
    \sum_{y \in Y} \sum_{r \in R} \sum_{t \in T} \sum_{f \in F} \sum_{h \in H}
