@@ -38,7 +38,7 @@ where *ϕ* corresponds to operators, *μ* is the media  of *ϕ*, *θ* is a coeff
 
 This forecasting model gives good approximations of the data registered by institutions. The estimation begins with the analysis and forecasting of the time series corresponding to the primary sources. With these long term values, a specific trend is fixed by using the shares defined in the base year. A Hierarchical process was develop considering that the shares by each sector are the same on the base year.
 
-.. figure:: img/Energy_Forecast_Plot.png
+.. figure:: Figures/Energy_Forecast_Plot.png
    :align:   center
    :width:   600 px
    
@@ -63,7 +63,7 @@ Output Activity Ratio
 
 4.5 Technology costs
 
-Capital andn Fixed
+Capital and Fixed
 
 
 4.6 Decision Variables 
