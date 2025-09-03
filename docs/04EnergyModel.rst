@@ -61,6 +61,69 @@ Residual Capacity
 Input Activity Ratio
 Output Activity Ratio
 
+
+.. figure:: Figures/Generation R1.png
+   :align:   center
+   :width:   600 px
+   
+   *Figure XXX: Generation Region 1* 
+
+
+.. figure:: Figures/Generation R2.png
+   :align:   center
+   :width:   600 px
+   
+   *Figure XXX: Generation Region 2* 
+
+
+.. figure:: Figures/Generation R3.png
+   :align:   center
+   :width:   600 px
+   
+   *Figure XXX: Generation Region 3* 
+
+
+.. figure:: Figures/Interchange Nicaragua.png
+   :align:   center
+   :width:   600 px
+   
+   *Figure XXX: Interchange Nicaragua* 
+
+
+.. figure:: Figures/Interchange Panama.png
+   :align:   center
+   :width:   600 px
+   
+   *Figure XXX: Interchange Panama* 
+
+
+.. figure:: Figures/Generation National and Interchange.png
+   :align:   center
+   :width:   600 px
+   
+   *Figure XXX: Generation National and Interchange* 
+
+
+
+
+
+
+
+.. figure:: Figures/Operational CF R1.png
+   :align:   center
+   :width:   600 px
+   
+   *Figure XXX: Operational CF R1* 
+
+
+
+.. figure:: Figures/Operational CF R2.png
+   :align:   center
+   :width:   600 px
+   
+   *Figure XXX: Operational CF R2* 
+
+
 4.5 Technology costs
 
 Capital and Fixed
