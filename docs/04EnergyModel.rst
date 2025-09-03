@@ -14,6 +14,13 @@
 Technologies, fuels, emissions  
 
 
+.. figure:: Figures/CR_Regions.png
+   :align:   center
+   :width:   600 px
+   
+   *Figure 4.1: Historical and Forecasting electricity consumption by sector in Costa Rica* 
+
+
 4.3 Electricity Demand 
 +++++++++
 Based on the historical data of the energy balance, the demand projections were developed by using ARIMA models. These models are one of the most widely used approaches for time series forecasting. They correspond to simple univariate models focused on the long trend trajectory of the different time series. Their general structure is shown below:
@@ -62,42 +69,43 @@ Input Activity Ratio
 Output Activity Ratio
 
 
-.. figure:: Figures/Generation R1.png
+
+.. figure:: Figures/GenerationR1.png
    :align:   center
    :width:   600 px
    
    *Figure XXX: Generation Region 1* 
 
 
-.. figure:: Figures/Generation R2.png
+.. figure:: Figures/GenerationR2.png
    :align:   center
    :width:   600 px
    
    *Figure XXX: Generation Region 2* 
 
 
-.. figure:: Figures/Generation R3.png
+.. figure:: Figures/GenerationR3.png
    :align:   center
    :width:   600 px
    
    *Figure XXX: Generation Region 3* 
 
 
-.. figure:: Figures/Interchange Nicaragua.png
+.. figure:: Figures/InterchangeNicaragua.png
    :align:   center
    :width:   600 px
    
    *Figure XXX: Interchange Nicaragua* 
 
 
-.. figure:: Figures/Interchange Panama.png
+.. figure:: Figures/InterchangePanama.png
    :align:   center
    :width:   600 px
    
    *Figure XXX: Interchange Panama* 
 
 
-.. figure:: Figures/Generation National and Interchange.png
+.. figure:: Figures/GenerationNationalInterchange.png
    :align:   center
    :width:   600 px
    
@@ -109,7 +117,7 @@ Output Activity Ratio
 
 
 
-.. figure:: Figures/Operational CF R1.png
+.. figure:: Figures/OperationalCFR1.png
    :align:   center
    :width:   600 px
    
@@ -117,11 +125,11 @@ Output Activity Ratio
 
 
 
-.. figure:: Figures/Operational CF R2.png
+.. figure:: Figures/OperationalCFR2.png
    :align:   center
    :width:   600 px
    
-   *Figure XXX: Operational CF R2* 
+   *Figure XXX: OperationalCFR2* 
 
 
 4.5 Technology costs
