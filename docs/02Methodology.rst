@@ -4,7 +4,7 @@
 2.1 Desicion estructuring 
 +++++++++
 
-It is widely recognized that participatory processes lead to comprehensive solutions and allow for the establishment of an adequate understanding of the problem at hand. In general, these processes are carried out in coordination with government bodies responsible for energy or climate change policy, which facilitate the identification and involvement of key stakeholders in order to gather their perspectives. The outcome of this stage is organized into a matrix known as XLRM, which defines: performance metrics (X), strategies or actions (L), models and data (R), and uncertainties (M) embedded in the problem to be addressed. Through workshops with a balanced representation of stakeholders, mechanisms are generated to respond to questions such as:
+It is widely recognized that participatory processes lead to comprehensive solutions and allow for the establishment of an adequate understanding of the problem at hand. In general, these processes are carried out in coordination with government bodies responsible for energy or climate change policy, which facilitate the identification and involvement of key stakeholders in order to gather their perspectives. The outcome of this stage is organized into a matrix known as XLRM, which defines: uncertainties (X), strategies, actions or levers (L), models and data (R), and performance metrics (M) embedded in the problem to be addressed. Through workshops with a balanced representation of stakeholders, mechanisms are generated to respond to questions such as:
 
 1- What models are used to analyze energy systems, and what databases do they rely on?
 
@@ -25,8 +25,6 @@ In the field of energy systems, the Latin American region presents many similar 
 
 The matrix provides inputs for the development of a modelling framework that supports the energy transition toward decarbonization and affordability. The information reflects a national-scale perspective and will serve as a reference for the present study, in which the main focus lies in the methodological formulation and its initial application.
 
-
-+++++++++
 
 
 
