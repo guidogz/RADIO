@@ -72,42 +72,42 @@ Output Activity Ratio
 
 .. figure:: Figures/GenerationR1.png
    :align:   center
-   :width:   600 px
+   :width:   800 px
    
    *Figure XXX: Generation Region 1* 
 
 
 .. figure:: Figures/GenerationR2.png
    :align:   center
-   :width:   600 px
+   :width:   800 px
    
    *Figure XXX: Generation Region 2* 
 
 
 .. figure:: Figures/GenerationR3.png
    :align:   center
-   :width:   600 px
+   :width:   800 px
    
    *Figure XXX: Generation Region 3* 
 
 
 .. figure:: Figures/InterchangeNicaragua.png
    :align:   center
-   :width:   600 px
+   :width:   800 px
    
    *Figure XXX: Interchange Nicaragua* 
 
 
 .. figure:: Figures/InterchangePanama.png
    :align:   center
-   :width:   600 px
+   :width:   800 px
    
    *Figure XXX: Interchange Panama* 
 
 
 .. figure:: Figures/GenerationNationalInterchange.png
    :align:   center
-   :width:   600 px
+   :width:   800 px
    
    *Figure XXX: Generation National and Interchange* 
 
@@ -119,7 +119,7 @@ Output Activity Ratio
 
 .. figure:: Figures/OperationalCFR1.png
    :align:   center
-   :width:   600 px
+   :width:   800 px
    
    *Figure XXX: Operational CF R1* 
 
@@ -127,7 +127,7 @@ Output Activity Ratio
 
 .. figure:: Figures/OperationalCFR2.png
    :align:   center
-   :width:   600 px
+   :width:   800 px
    
    *Figure XXX: OperationalCFR2* 
 
