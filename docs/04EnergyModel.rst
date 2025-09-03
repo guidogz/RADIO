@@ -72,7 +72,7 @@ Output Activity Ratio
 
 .. figure:: Figures/GenerationR1.png
    :align:   center
-   :width:   800 px
+   :width:   850 px
    
    *Figure XXX: Generation Region 1* 
 
@@ -93,14 +93,14 @@ Output Activity Ratio
 
 .. figure:: Figures/InterchangeNicaragua.png
    :align:   center
-   :width:   800 px
+   :width:   900 px
    
    *Figure XXX: Interchange Nicaragua* 
 
 
 .. figure:: Figures/InterchangePanama.png
    :align:   center
-   :width:   800 px
+   :width:   900 px
    
    *Figure XXX: Interchange Panama* 
 
