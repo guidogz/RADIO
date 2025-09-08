@@ -21,6 +21,7 @@ Objective function – total costs should be minimized
    \min Z =
    \sum_{y \in Y} \sum_{r \in R} \sum_{t \in T}
    \frac{TotalCost_{y,r,t}}{(1 + DiscountRate)^{y - \min(Y)}}
+   
    + \sum_{y \in Y} \sum_{r \in R} \sum_{s \in S}
    \frac{TotalStorageCost_{y,r,s}}{(1 + DiscountRate)^{y - \min(Y)}}
 
@@ -30,6 +31,7 @@ Objective function – total costs should be minimized
 
    - \sum_{y \in Y} \sum_{r \in R} \sum_{t \in T}
    \frac{SalvageValue_{y,r,t}}{(1 + DiscountRate)^{y - \min(Y)}}
+
    - \sum_{y \in Y} \sum_{r \in R} \sum_{s \in S}
    \frac{StorageSalvageValue_{y,r,s}}{(1 + DiscountRate)^{y - \min(Y)}}
 
