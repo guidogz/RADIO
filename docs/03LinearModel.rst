@@ -21,17 +21,13 @@ Objective function – total costs should be minimized
    \min Z =
    \sum_{y \in Y} \sum_{r \in R} \sum_{t \in T}
    \frac{TotalCost_{y,r,t}}{(1 + DiscountRate)^{y - \min(Y)}}
-   
-   + \sum_{y \in Y} \sum_{r \in R} \sum_{s \in S}
+      + \sum_{y \in Y} \sum_{r \in R} \sum_{s \in S}
    \frac{TotalStorageCost_{y,r,s}}{(1 + DiscountRate)^{y - \min(Y)}}
-
    + \sum_{y \in Y} \sum_{r \in R} \sum_{rr \in R} \sum_{h \in H} \sum_{f \in F}
    \frac{TradeCostFactor_{f} \cdot TradeDistance_{r,rr} \cdot Export_{y,rr,r,h,f} \cdot YearlyDifferenceMultiplier_{y}}
    {(1 + DiscountRate)^{y - \min(Y)}}
-
    - \sum_{y \in Y} \sum_{r \in R} \sum_{t \in T}
    \frac{SalvageValue_{y,r,t}}{(1 + DiscountRate)^{y - \min(Y)}}
-
    - \sum_{y \in Y} \sum_{r \in R} \sum_{s \in S}
    \frac{StorageSalvageValue_{y,r,s}}{(1 + DiscountRate)^{y - \min(Y)}}
 
