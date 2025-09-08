@@ -78,8 +78,8 @@ html_sidebars = {
 }
 
 # Activa estáticos y CSS para fórmulas anchas / columna más amplia (opcional)
-html_static_path = ['_static']
-html_css_files = ['math.css']   # crea docs/_static/math.css
+#html_static_path = ['_static']
+#html_css_files = ['math.css']   # crea docs/_static/math.css
 
 # -- HTMLHelp / LaTeX / man / texinfo ------------------------------------
 htmlhelp_basename = 'Documentación'
