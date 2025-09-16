@@ -1,7 +1,7 @@
-2. Decision-Making Framework Design
+3. Decision-Making Framework Design
 =======================================
 
-2.1 Desicion estructuring 
+3.1 Desicion estructuring 
 +++++++++
 
 It is widely recognized that participatory processes lead to comprehensive solutions and allow for the establishment of an adequate understanding of the problem at hand. In general, these processes are carried out in coordination with government bodies responsible for energy or climate change policy, which facilitate the identification and involvement of key stakeholders in order to gather their perspectives. The outcome of this stage is organized into a matrix known as XLRM, which defines: uncertainties (X), strategies, actions or levers (L), models and data (R), and performance metrics (M) embedded in the problem to be addressed. Through workshops with a balanced representation of stakeholders, mechanisms are generated to respond to questions such as:
@@ -28,7 +28,7 @@ The matrix provides inputs for the development of a modelling framework that sup
 
 
 
-2.2 Exploratory modelling 
+3.2 Exploratory modelling 
 +++++++++
 
 In the scenario exploration stage, the information obtained from the participatory process is consolidated into a simulation platform, which unidirectionally combines an energy model with a module to study system costs. Next tigure  illustrates how the information contained in the XLRM matrix enters the simulation process and is subsequently sent to the vulnerability analysis stage. In this process, the models must be adapted to address the objective of the problem under study, adequately consider temporal and spatial resolution, the characterization of technologies or processes, boundary conditions of the analysis, uncertainty, and techniques for effective communication of results.
@@ -65,7 +65,7 @@ The LHS algorithm selects combinations of these variables that allow for a unifo
 For this project, approximately XXX  independent parameters are being combined per future. Rather than representing a single point, each future is associated with a long-term trajectory.
 
 
-2.4 Vulnerability Analysis 
+3.4 Vulnerability Analysis 
 +++++++++
 
 This stage shares similarities with general sensitivity analyses, in which the effect of varying model input parameters on output variables is explored. Under the concept of robustness, the quantification focuses on identifying the conditions under which policy actions or strategies are prone to failure, or where the stated objectives are not successfully achieved, given the influence of uncertainties. Since the exploratory process generates a substantial amount of data, it is common to employ computational techniques from Machine Learning. This process, known as scenario discovery, is used to inform the effects of uncertainties.
@@ -78,7 +78,7 @@ At this point, the analysis explores how the set of strategies is affected by un
 
    *Figure X.X: Vulnerability*
 
-La búsqueda de patrones de interés se realiza seleccionando umbrales para cada métrica determinada. Usualmente, los tomadores de decisión definen estos valores y se convierten en los objetivos a cumplir. Considerando las premisas descritas en las etapas anteriores se definirán como punto de partida las siguientes métricas y umbrales de interés: i) Confiabilidad, con 100% satisfacción de la demanda, ii) Emisiones de dióxido de carbono, con un 90% de reducciones al 2050, en comparación a las registradas en 2020 y ii) Costos totales y costos nivelados de la electricidad con un aumento no mayor al 10% en 2050. Existe una riqueza en la aplicación de este enfoque novedoso debido al nivel de flexibilidad para responder preguntas de política y brindar señales claras del desempeño. Esta condición es relevante porque genera conciencia situacional sobre los tomadores de decisión y los motiva a seguir experimentando junto a los equipos de modelación. Estos equipos también tienen la tarea de mantener la rigurosidad científica y la transparencia para promover los mejores principios de gobernanza.
+The search for relevant patterns is carried out by selecting thresholds for each defined metric. Decision-makers usually determine these values, which then become the objectives to be achieved. Based on the premises described in the previous stages, the following metrics and thresholds of interest are defined as a starting point: i) Reliability, with 100% demand satisfaction; ii) Carbon dioxide emissions, with a 90% reduction by 2050 compared to 2020 levels; and iii) Total costs and levelized cost of electricity, with an increase of no more than 10% by 2050. The richness of applying this novel approach lies in its flexibility to address policy questions and provide clear performance signals. This condition is relevant because it raises situational awareness among decision-makers and motivates them to continue experimenting alongside modeling teams. These teams also have the responsibility to maintain scientific rigor and transparency in order to promote the best principles of governance.
 
 
 This process aims to contrast the combinations of uncertainties or input parameters in the model against the set of defined metrics. Additionally, it allows for the definition of parameter ranges that generate conditions of vulnerability, as well as a classification based on their impact on the results. In this study, we employ the Patient Rule Induction Method (PRIM) algorithm, as it is considered useful for being highly interactive, offering multiple options for scenario selection, and providing visualizations that help users balance the three measures of scenario quality: coverage, density, and interpretability. The following figure illustrates this concept, considering a series of results separated by a threshold that is usually defined a priori. Based on this threshold, the scenarios of interest are defined. In other words, scenario discovery seeks to identify the combination of input parameters that lead to results exceeding this threshold.
