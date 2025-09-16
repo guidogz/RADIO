@@ -1,4 +1,4 @@
-14. Selected References
+Selected References
 ===========
 
 .. bibliography:: references.bib
