@@ -1,4 +1,4 @@
-2. Analytical Approach
+2. Decision-Making Framework Design
 =======================================
 
 2.1 Desicion estructuring 
