@@ -1,2 +1,2 @@
-1. Road To Grid Modernization
+1. Road to Grid Modernization
 ========================================
