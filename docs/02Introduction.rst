@@ -1,6 +1,6 @@
 .. Title:
 
-1. Background and Motivation
+2. Background and Motivation
 =====================================
 
 The Paris Agreement and the Sustainable Development Goals boosted the global 
@@ -12,7 +12,7 @@ This work proposes a comprehensive framework aimed at guiding power grid moderni
 
 
 
-1.1 Motivation and Problem Statement 
+2.1 Motivation and Problem Statement 
 +++++++++
 
 Costa Rica has a strong tradition of nature protection and climate change leadership. Through its participation in the Latin American Deep Decarbonisation Pathways Project (DDP-LAC), the country showcased the technical feasibility of deep decarbonisation and its potential socioeconomic benefits, considering the effect of uncertainty :cite:`IDB2019,Bataille2020,Batt_20`. This collaborative scientific project established Costa Rican work as reference study and facilitated the transfer of methodology, capacities, tools, and abilities to other countries in the region, such as Peru :cite:`Quiros-Tortos2021`, This provide reliable evidence of how academia can assist governments in designing strategies:cite:`sasse_2018`. The motivation of this work is to continue making contributions to the sustainable development of diferent countries through the creation of novel knowledge and the development of advanced computational tools. Currently, the primary emphasis is on guiding the transformation of the power system based on the concept of smart grids as an enabler of sustainability. 
@@ -22,7 +22,7 @@ In the last decade, significant efforts have been directed towards studying smar
 Understanding the complexity associated with power grid modelling and simulation, as well as addressing the inherent technological, regulatory, and socioeconomic uncertainties, critical for effective support to decision makers :cite:`jule_21_100`.
 For instance, the substantial integration of distributed energy resources demands more than mere investments in physical infrastructure; it requires enhancements in operator visibility, communication systems, and advanced applications for grid management :cite:`Bigdata_23`. In addition, citizens are actively participating in energy transactions, and it is foreseen the need for new regulatory mechanisms and business models to adapt to this trend in the near future :cite:`Ines2020,HUA2020115539`.This conditions challenging the traditional metodologies for power grid system planning. To address these gaps, utilities are defining roadmaps with specific objectives for infrastructure adequation and customer-centered strategies. However, the need arises to develop novel methodologies, particularly for prioritization of investment, interactions of components (physical and cyber-physical), accounting of benefits (monetary and non-monetary), addressing uncertainty, reliability assurance, security enhancement, and transparent decision support :cite:` Modernization_roadmap,Modernization_CBA, Modernization_Innovation`. As a synthesis, the following general research question is presented:
 
-1.2 Decision Framework
+2.2 Decision Framework
 +++++++++
 
 The debate on the energy transition should center on attaining social objectives through the integration of citizens, academia, government, and utilities. DMDU constitutes an excellent approach to solving this problem, wherein paradigm underlines the need to prepare and adapt to unpredictable conditions instead of traditional methods of "predict and then act". The benefits of this approach are obtained mainly in the presence of complex systems and under circumstances where uncertainty cannot be well characterized. Indeed, there is a condition of deep uncertainty when decision-makers do not know or disagree on the probability of their strategies' impact. The initial stage of this approach is predominantly qualitative and involves a collaborative  process with decision-makers. Subsequently, the second phase entails the simulation of multiple scenarios that capture the impact of strategies, thereby quantifying the level of performance. Figure 1.1 shows the general concept to develop.
@@ -33,7 +33,7 @@ This framework contains functionalities related to the acquisition and preparati
    :align:   center
    :width:   700 px
 
-   *Figure 1.1: The general concept for decision-making in sustainable planning for the power grid.*
+   *Figure 2.1: The general concept for decision-making in sustainable planning for the power grid.*
 
 The design a computer system starts with the abstraction of a universe to be a model. Then it is necessary to define paradigms and methodologies, establish the infrastructure and software, create an architecture and finally implement it in a modular way. Figure \ref{framework_Specific} illustrates the proposed methodological framework, which integrates an analysis sequence based on DMDU principles with a computational platform. The primary phase encompasses the generation of a decision-making matrix, acting as the input for the subsequent multi-objective optimization process employing genetic algorithms. Within this phase, the evaluation of investment portfolios occur across diverse potential scenarios through computational experimental design, incorporating Latin-hypercube sampling. A subsequent stage aims to reveal patterns within the expansive dataset and  vulnerability zones, leveraging machine learning algorithms such as logistic regression and classification by decision trees. The ultimate stage involves the establishment of pathways to prioritize strategies based on performance metrics. In accordance with customary practices observed in methodological frameworks, contributions stem from the development of computational aplication that integrate various other computational tools. In this case, we introduce new python package called RADIO: Robust Adaptive Decision-making for Investments and Operations
 
@@ -41,5 +41,5 @@ The design a computer system starts with the abstraction of a universe to be a m
    :align:   center
    :width:   700 px
 
-   *Figure 1.1: Proposed Methodological Framework for Grid Modernization.*
+   *Figure 2.1: Proposed Methodological Framework for Grid Modernization.*
 
