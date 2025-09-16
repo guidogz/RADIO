@@ -1,4 +1,4 @@
-3. Linear Programming Structure
+Supplementary Material A: Mathematical Programming Formulation
 =======================================
 
 3.1 Modelling Approach
