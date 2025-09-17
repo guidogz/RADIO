@@ -9,6 +9,8 @@ RADIO: Robust Adaptive Decision for Investments and Operations
 .. toctree::
    :maxdepth: 2
    :caption: Contents
+   
+   cover...
 
    01Presentation
    02Introduction
