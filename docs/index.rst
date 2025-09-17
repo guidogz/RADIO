@@ -22,6 +22,6 @@ RADIO: Robust Adaptive Decision for Investments and Operations
    10Regulation
    11Pathways
    12Policy
-   13LinearModel
+   13Formulation
    14UsingRADIO
    15References
