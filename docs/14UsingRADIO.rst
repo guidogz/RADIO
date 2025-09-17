@@ -1,2 +1,2 @@
-Supplementary Material B - Guide to Using RADIO.py
+Supplement B - Guide to Using RADIO.py
 ===================================
