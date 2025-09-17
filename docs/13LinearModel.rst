@@ -1,4 +1,4 @@
-Supplementary Material A: Mathematical Formulation
+Supplementary Material A - Mathematical Formulation
 =======================================
 
 3.1 Modelling Approach
