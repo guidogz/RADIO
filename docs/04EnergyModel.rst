@@ -1,8 +1,8 @@
-4. Modelling the Power Sector
+4. Power Sector Modeling 
 =======================================
 
 
-4.1 Modelling approach
+4.1 Modeling approach
 +++++++++
 
 
