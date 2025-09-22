@@ -199,13 +199,15 @@ Parameters (Data Dictionary)
 ----------------------------
 **Key:** Indices shown as tuples of set symbols.
 
+General power grid 
+
 .. list-table::
    :header-rows: 1
    :widths: 22 20 18 12 12 16
 
    * - Name
      - CSV 
-     - Indices
+     - Sets
      - Units
      - Default
      - Notes / Source
@@ -293,6 +295,14 @@ Parameters (Data Dictionary)
      - tCO2/year
      - large
      - Policy cap per year.
+
+
+Storage parameters 
+
+.. list-table::
+   :header-rows: 1
+   :widths: 22 20 18 12 12 16
+
    * - StorageInvestmentCost
      - ``storage_param_cost_investment.csv``
      - (Y,S)
@@ -341,6 +351,13 @@ Parameters (Data Dictionary)
      - years
      - —
      - Lifetime for salvage & cohorting.
+
+Transmission parameters 
+
+.. list-table::
+   :header-rows: 1
+   :widths: 22 20 18 12 12 16
+
    * - ResidualTransCap
      - ``trans_param_capacity_residual.csv``
      - (Y,L)
