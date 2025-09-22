@@ -170,16 +170,16 @@ Sets
      - Regions (5 entries), column: ``region``
    * - :math:`T`
      - ``data/set_technologies.csv``
-     - Technologies, column: ``technology``
+     - Specially for power plants, column: ``technology``
    * - :math:`F`
      - ``data/set_fuels.csv``
-     - Fuels (typically ``power`` for transmission), column: ``fuel``
+     - Power for electricity networks, column: ``fuel``
    * - :math:`H`
-     - ``data/set_timeslices.csv``, column: ``timeslice``
-     - Timeslices or representative hours, (normalized 1: per year/region/fuel)
+     - ``data/set_timeslices.csv``
+     - Representative hours, column: ``timeslice``
    * - :math:`Y`
-     - ``data/set_years.csv``, column: ``year``
-     - Planning years (2025:5:2050)
+     - ``data/set_years.csv``
+     - Planning years (2025:5:2050), column: ``year``
    * - :math:`S`
      - ``data/storage_set_techs.csv``
      - Storage technologies, column: ``storage``
@@ -204,7 +204,7 @@ Parameters (Data Dictionary)
    :widths: 22 20 18 12 12 16
 
    * - Name
-     - CSV (relative to ``data/``)
+     - CSV 
      - Indices
      - Units
      - Default
