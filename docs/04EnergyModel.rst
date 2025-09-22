@@ -175,11 +175,11 @@ Sets
      - ``data/set_fuels.csv``
      - Fuels (typically ``power`` for transmission), column: ``fuel``
    * - :math:`H`
-     - *(generated)* 1..96
-     - Timeslices (representative hours), normalized profiles sum to 1 per year/region/fuel
+     - ``data/set_timeslices.csv``, column: ``timeslice``
+     - Timeslices or representative hours, (normalized 1: per year/region/fuel)
    * - :math:`Y`
-     - *(generated)* 2025:5:2050
-     - Planning years
+     - ``data/set_years.csv``, column: ``year``
+     - Planning years (2025:5:2050)
    * - :math:`S`
      - ``data/storage_set_techs.csv``
      - Storage technologies, column: ``storage``
