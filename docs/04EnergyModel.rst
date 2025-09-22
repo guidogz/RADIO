@@ -141,7 +141,6 @@ Capital and Fixed
 +++++++++
 
 CREAM Data & Model Specification
-================================
 
 .. contents::
    :local:
@@ -303,6 +302,12 @@ Storage parameters
    :header-rows: 1
    :widths: 22 20 18 12 12 16
 
+   * - Name
+     - CSV 
+     - Sets
+     - Units
+     - Default
+     - Notes / Source
    * - StorageInvestmentCost
      - ``storage_param_cost_investment.csv``
      - (Y,S)
@@ -358,6 +363,12 @@ Transmission parameters
    :header-rows: 1
    :widths: 22 20 18 12 12 16
 
+   * - Name
+     - CSV 
+     - Sets
+     - Units
+     - Default
+     - Notes / Source
    * - ResidualTransCap
      - ``trans_param_capacity_residual.csv``
      - (Y,L)
