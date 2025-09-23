@@ -212,43 +212,43 @@ General power grid
      - Notes / Source
    * - AnnualDemand
      - ``param_demand_annual.csv``
-     - (Y,R,F)
+     - Y,R,F
      - MWh/year
      - —
      - Annual energy demand. Source: utility stats.
    * - DemandProfile
      - ``param_demand_profile.csv``
-     - (R,H,F)
+     - R,H,F
      - p.u. (sum_H=1)
      - 1/|H|
      - Normalized hourly shape. One per (R,F). If omitted, uniform.
    * - OutputActivityRatio
      - ``param_activity_ratio_output.csv``
-     - (T,F)
+     - T,F
      - MWh_out per unit-activity
      - —
      - Maps activity to outputs (OSeMOSYS-style).
    * - InputActivityRatio
      - ``param_activity_ratio_input.csv``
-     - (T,F)
+     - T,F
      - MWh_in per unit-activity
      - —
      - Maps activity to inputs (OSeMOSYS-style).
    * - VariableCost
      - ``param_cost_variable.csv``
-     - (Y,T)
+     - Y,T
      - USD/MWh_out
      - —
      - Variable O&M on output basis.
    * - InvestmentCost
      - ``param_cost_investment.csv``
-     - (Y,T)
+     - [Y,T]
      - USD/MW_new
      - —
      - Overnight CAPEX.
    * - FixedCost
      - ``param_cost_fixed.csv``
-     - (Y,T)
+     - [Y,T]
      - USD/(MW·year)
      - 0
      - Fixed O&M per MW-year.
@@ -272,7 +272,7 @@ General power grid
      - Existing stock at year y.
    * - OperationalLife
      - ``param_lifetime.csv``
-     - (T)
+     - [T]
      - years
      - —
      - Tech lifetime for cohort accounting & salvage.
