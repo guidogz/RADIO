@@ -210,36 +210,54 @@ General power grid
      - Units
      - Default
      - Notes / Source
-   * - AnnualDemand
-     - ``param_demand_annual.csv``
-     - Y,R,F
-     - MWh/year
-     - —
-     - Annual energy demand. Source: utility stats.
-   * - DemandProfile
-     - ``param_demand_profile.csv``
-     - R,H,F
-     - p.u. (sum_H=1)
-     - 1/|H|
-     - Normalized hourly shape. One per (R,F). If omitted, uniform.
-   * - OutputActivityRatio
-     - ``param_activity_ratio_output.csv``
-     - T,F
-     - MWh_out per unit-activity
-     - —
-     - Maps activity to outputs (OSeMOSYS-style).
+   * - AnnualEmissionLimit
+     - ``param_emission_limit.csv``
+     - [Y]
+     - tCO2/year
+     - large
+     - Policy cap per year.
+   * - EmissionRatio
+     - ``param_activity_ratio_emission.csv``
+     - [T]
+     - tCO2/MWh_out
+     - 0
+     - Emission intensity per MWh output (single-fuel case).
    * - InputActivityRatio
      - ``param_activity_ratio_input.csv``
      - T,F
      - MWh_in per unit-activity
      - —
      - Maps activity to inputs (OSeMOSYS-style).
-   * - VariableCost
-     - ``param_cost_variable.csv``
-     - Y,T
-     - USD/MWh_out
+   * - OutputActivityRatio
+     - ``param_activity_ratio_output.csv``
+     - [T,F]
+     - MWh_out per unit-activity
      - —
-     - Variable O&M on output basis.
+     - Maps activity to outputs (OSeMOSYS-style).
+   * - TagDispatchableTechnology
+     - ``param_tag_dispatchable.csv``
+     - [T]
+     - {0,1}
+     - 1
+     - 1=dispatchable; 0=VRE-like.
+   * - OperationalLife
+     - ``param_lifetime.csv``
+     - [T]
+     - years
+     - —
+     - Tech lifetime for cohort accounting & salvage.
+   * - AnnualDemand
+     - ``param_demand_annual.csv``
+     - [Y,R,F]
+     - MWh/year
+     - —
+     - Annual energy demand. Source: utility stats.
+   * - DemandProfile
+     - ``param_demand_profile.csv``
+     - [R,H,F]
+     - p.u. (sum_H=1)
+     - 1/|H|
+     - Normalized hourly shape. One per (R,F). If omitted, uniform.
    * - InvestmentCost
      - ``param_cost_investment.csv``
      - [Y,T]
@@ -252,48 +270,33 @@ General power grid
      - USD/(MW·year)
      - 0
      - Fixed O&M per MW-year.
+   * - VariableCost
+     - ``param_cost_variable.csv``
+     - [Y,T]
+     - USD/MWh_out
+     - —
+     - Variable O&M on output basis.   
    * - CapacityFactor
      - ``param_capacity_factors.csv``
-     - (R,H,T)
+     - [R,H,T]
      - p.u. [0–1]
      - —
      - Time-varying for VRE; for dispatchables can be flat.
    * - MaxCapacity
      - ``param_capacity_max.csv``
-     - (Y,R,T)
+     - [Y,R,T]
      - MW
      - large
      - Siting/technical cap.
    * - ResidualCapacity
      - ``param_capacity_residual.csv``
-     - (Y,R,T)
+     - [Y,R,T]
      - MW
      - 0
      - Existing stock at year y.
-   * - OperationalLife
-     - ``param_lifetime.csv``
-     - [T]
-     - years
-     - —
-     - Tech lifetime for cohort accounting & salvage.
-   * - TagDispatchableTechnology
-     - ``param_tag_dispatchable.csv``
-     - (T)
-     - {0,1}
-     - 1
-     - 1=dispatchable; 0=VRE-like.
-   * - EmissionRatio
-     - ``param_activity_ratio_emission.csv``
-     - (T)
-     - tCO2/MWh_out
-     - 0
-     - Emission intensity per MWh output (single-fuel case).
-   * - AnnualEmissionLimit
-     - ``param_emission_limit.csv``
-     - (Y)
-     - tCO2/year
-     - large
-     - Policy cap per year.
+
+
+
 
 
 Storage parameters 
