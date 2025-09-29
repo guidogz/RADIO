@@ -44,17 +44,23 @@ extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.imgmath',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
-    'sphinxcontrib.bibtex'] # Agregado napoleon extension
+    'sphinxcontrib.bibtex',
+    'sphinx.ext.numfig'] 
 
 # 'sphinx.ext.imgmath' delete for EQ
 
 bibtex_bibfiles = ['references.bib']  
 bibtex_encoding = 'latin'
 
-#Agregado
+#ADD
 napoleon_google_docstring = False
 napoleon_use_param = False
 napoleon_use_ivar = True
+
+#ADD
+# Numeración automática de figuras/tablas/códigos
+numfig = True
+numfig_secnum_depth = 2   # ajusta: 1 = capítulo, 2 = sección.subsección
 
 imgmath_font_size = 12
 
