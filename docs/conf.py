@@ -60,7 +60,10 @@ napoleon_use_ivar = True
 #ADD
 # Numeración automática de figuras/tablas/códigos
 numfig = True
-numfig_secnum_depth = 2   # ajusta: 1 = capítulo, 2 = sección.subsección
+templates_path = ["_templates"]
+html_static_path = ["_static"]
+html_theme = "furo"
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 imgmath_font_size = 12
 
