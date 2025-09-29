@@ -44,9 +44,7 @@ extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.imgmath',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
-    'sphinxcontrib.bibtex',
-    'sphinx.ext.numfig',
-] 
+    'sphinxcontrib.bibtex'] 
 
 # 'sphinx.ext.imgmath' delete for EQ
 
@@ -57,14 +55,6 @@ bibtex_encoding = 'latin'
 napoleon_google_docstring = False
 napoleon_use_param = False
 napoleon_use_ivar = True
-
-#ADD
-# Numeración automática de figuras/tablas/códigos
-numfig = True
-templates_path = ["_templates"]
-html_static_path = ["_static"]
-html_theme = "furo"
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 imgmath_font_size = 12
 
