@@ -6,17 +6,18 @@ The modeling framework adopted in CREAM follows the tradition of Energy System O
 
 
 4.1 Model structure and caracterization 
++++++++++
 
 Costa Rica’s power system is characterized by high renewable penetration and a well-defined regional structure. Operationally, it is divided into three zones: Chorotega, Central, and Huetar-Brunca. The Chorotega region hosts the majority of national generation capacity, accounting for approximately 62%, while Central and Huetar-Brunca contribute 16% and 25%, respectively. On the demand side, consumption is highly concentrated in the Central region, which represents about 60% of total load, compared to roughly 20% in each of the other two zones. The generation mix relies heavily on hydropower, close to 70%, complemented by geothermal (about 20%), wind (10%), and minor contributions from solar and bagasse (<1%). This configuration yields an overall renewable share of around 98% in a typical year. However, in dry years—often linked to El Niño events—the renewable share can fall to about 89%, requiring thermal plants to supply the deficit. Transmission is arranged in a meshed, ring-like network with congestion issues on northern corridors, and international interconnections exist with Nicaragua and Panama, enabling transactions in the Central American market
 
 As shown :numref:`fig-cr-system`, the left panel shows the geographical division into three operational regions (Chorotega, Central, Huetar-Brunca). The right panel illustrates the network abstraction, where each node includes demand centers, existing generation capacity, and the potential integration of new technologies. Dashed lines represent candidate investments such as new plants, storage systems, or transmission reinforcements, while solid lines indicate existing interconnections, including international links with Nicaragua and Panama.
 
-.. _fig-cr-system:
+
 
 .. figure:: Figures/CR_Regions.png
    :align:   center
    :width:   600 px
-   
+   .. _fig-cr-system:
    *Geographical and graph-based representation of the Costa Rican power system* 
 
 
