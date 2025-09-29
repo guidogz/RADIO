@@ -1,24 +1,24 @@
 4. Power Sector Modeling 
 =======================================
+This section introduces the foundation of the Costa Rica Energy Analysis Model (CREAM). The model is designed to represent the national power system with a structure that balances technical accuracy and computational feasibility. It describes the system topology, including the regional division and interconnections, as well as the spatial and temporal resolution applied in the analysis. Key assumptions are documented to provide transparency in how generation technologies, demand patterns, and operational practices are represented. The section also outlines the treatment of critical operational parameters and the calibration process, ensuring that simulated results align with observed system performance.
+
+The modeling framework adopted in CREAM follows the tradition of Energy System Optimization Models (ESOMs), which provide a powerful approach to representing the long-term evolution of energy systems under a variety of technical, economic, and policy conditions. Compared to accounting or simulation-based tools, ESOMs offer greater capability to identify cost-effective pathways, resource allocation strategies, and system-level trade-offs. Nevertheless, their abstraction of operational details introduces limitations when representing short-term dynamics. CREAM is implemented with a hybrid programming approach: the optimization core is developed in Julia, which offers significant speed advantages for solving large-scale linear problems, while tasks such as data preprocessing, visualization, and scenario management are handled in Python. The model is original, building on methodological insights from established frameworks such as OSeMOSYS and GENeSYS-MOD. Its design emphasizes computational performance making it suitable for experimental scenario analysis focused on Costa Rica’s energy transition, both in terms of mitigation and adaptation to climate change.
 
 
-4.1 Modeling approach
-+++++++++
+4.1 Model structure and caracterization 
 
+Costa Rica’s power system is characterized by high renewable penetration and a well-defined regional structure. Operationally, it is divided into three zones: Chorotega, Central, and Huetar-Brunca. The Chorotega region hosts the majority of national generation capacity, accounting for approximately 62%, while Central and Huetar-Brunca contribute 16% and 25%, respectively. On the demand side, consumption is highly concentrated in the Central region, which represents about 60% of total load, compared to roughly 20% in each of the other two zones. The generation mix relies heavily on hydropower, close to 70%, complemented by geothermal (about 20%), wind (10%), and minor contributions from solar and bagasse (<1%). This configuration yields an overall renewable share of around 98% in a typical year. However, in dry years—often linked to El Niño events—the renewable share can fall to about 89%, requiring thermal plants to supply the deficit. Transmission is arranged in a meshed, ring-like network with congestion issues on northern corridors, and international interconnections exist with Nicaragua and Panama, enabling transactions in the Central American market
 
-4.2 Model structure
-+++++++++
+As shown in :ref:`fig-cr-system`, the left panel shows the geographical division into three operational regions (Chorotega, Central, Huetar-Brunca). The right panel illustrates the network abstraction, where each node includes demand centers, existing generation capacity, and the potential integration of new technologies. Dashed lines represent candidate investments such as new plants, storage systems, or transmission reinforcements, while solid lines indicate existing interconnections, including international links with Nicaragua and Panama.
 
-(i.e. temporal space, geographic space, elements of the system, etc.)
-
-Technologies, fuels, emissions  
-
-
+. _fig-cr-system:
 .. figure:: Figures/CR_Regions.png
    :align:   center
    :width:   600 px
    
-   *Figure 4.1: Historical and Forecasting electricity consumption by sector in Costa Rica* 
+   *Figure 4.1: Geographical and graph-based representation of the Costa Rican power system* 
+
+
 
 
 4.3 Electricity Demand 
