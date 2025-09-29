@@ -45,7 +45,8 @@ extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
     'sphinxcontrib.bibtex',
-    'sphinx.ext.numfig'] 
+    'sphinx.ext.numfig',
+] 
 
 # 'sphinx.ext.imgmath' delete for EQ
 
