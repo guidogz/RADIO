@@ -12,7 +12,6 @@ Costa Rica’s power system is characterized by high renewable penetration and a
 
 As shown in Figure 4.1, the left panel shows the geographical division into three operational regions (Chorotega, Central, Huetar-Brunca). The right panel illustrates the network abstraction, where each node includes demand centers, existing generation capacity, and the potential integration of new technologies. Dashed lines represent candidate investments such as new plants, storage systems, or transmission reinforcements, while solid lines indicate existing interconnections, including international links with Nicaragua and Panama.
 
-.. _fig-cr-system:
 .. figure:: Figures/CR_Regions.png
    :align:   center
    :width:   600 px
@@ -24,7 +23,7 @@ Figure 4.2 presents the node-level representation adopted in the model. Each nod
 
 .. figure:: Figures/Node_representation.png
    :align:   center
-   :width:   400 px
+   :width:   600 px
 
    *Figure 4.2. Node schematic: demand, generation, storage, transmission* 
 
