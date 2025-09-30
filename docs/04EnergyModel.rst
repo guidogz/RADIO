@@ -19,6 +19,17 @@ As shown in Figure 4.1, the left panel shows the geographical division into thre
 
    *Figure 4.1. Geographical and graph-based representation of the Costa Rican power system* 
 
+Figure 4.2 presents the node-level representation adopted in the model. Each node aggregates end-use demand modules—residential, commercial, and industrial baselines; decarbonization and digitalization levers; and separate light and heavy-duty EV charging, together with supply and flexibility assets. Generation technologies include geothermal, biomass, hydropower (reservoir and run-of-river), wind, solar, and thermal units. Batteries provide short-term storage, while transmission blocks represent interzonal and international links with bidirectional flows. The right-hand summary boxes list the key model sets (three regions, two seasons, forty-eight timeslices) and classify power plants by operational role (firm, flexible, variable, seasonal, backup). The modeling design aims to generate plausible scenarios, identify cost-effective investment portfolios across generation, storage, and transmission, and evaluate vulnerability and adaptation under climate change—particularly hydrologic stress in dry years and ENSO-driven variability. By coupling nodal structure with operational attributes and charging profiles, the framework captures system-level trade-offs among energy, flexibility, and curtailment, enabling transparent planning analyses.
+
+.. _node_representaion:
+.. figure:: node_representaion.png
+   :align:   center
+   :width:   600 px
+
+   *Figure 4.2. Node schematic: demand, generation, storage, transmission* 
+
+
+
 
 4.3 Electricity Demand 
 +++++++++
