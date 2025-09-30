@@ -14,7 +14,7 @@ As shown in Figure 4.1, the left panel shows the geographical division into thre
 
 .. figure:: Figures/CR_Regions.png
    :align:   center
-   :width:   600 px
+   :width:   800 px
 
    *Figure 4.1. Geographical and graph-based representation of the Costa Rican power system* 
 
@@ -23,7 +23,7 @@ Figure 4.2 presents the node-level representation adopted in the model. Each nod
 
 .. figure:: Figures/Node_representation.png
    :align:   center
-   :width:   600 px
+   :width:   800 px
 
    *Figure 4.2. Node schematic: demand, generation, storage, transmission* 
 
