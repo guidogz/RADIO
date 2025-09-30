@@ -24,7 +24,7 @@ Figure 4.2 presents the node-level representation adopted in the model. Each nod
 .. _node_representaion:
 .. figure:: Figures/Node_representation.png
    :align:   center
-   :width:   600 px
+   :width:   400 px
 
    *Figure 4.2. Node schematic: demand, generation, storage, transmission* 
 
