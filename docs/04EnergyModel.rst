@@ -32,7 +32,29 @@ Figure 4.2 presents the node-level representation adopted in the model. Each nod
 
 4.3 Electricity Demand 
 +++++++++
-Based on the historical data of the energy balance, the demand projections were developed by using ARIMA models. These models are one of the most widely used approaches for time series forecasting. They correspond to simple univariate models focused on the long trend trajectory of the different time series. Their general structure is shown below:
+
+Figure 4.3 presents the demand trajectories we are studying. Because the long term is inherently uncertain, we consider ranges of scenarios rather than single lines. The figure overlays historical trends with intervention curves tied to decarbonization policies, showing how policy-driven shifts can bend the baseline and widen the plausible envelope
+
+.. figure:: Figures/Anual_Demand.png
+   :align:   center
+   :width:   800 px
+
+   *Figure 4.3. Demand Scenarios: Baseline, Decarbonization & Data Centers, EV-Light, EV-Heavy* 
+
+Demand is a primary source of model uncertainty, and planning decisions should be assessed against the range of credible trajectories, not only the mean. Building on this principle, the baseline demand projection is derived from the national energy-balance time series, expressed in GWh. We estimate a univariate ARIMA model to capture the long-run trend and its stochastic variability, selecting orders via standard information criteria and validating residuals for whiteness and stability. The forecast (orange markers) is shown together with a 95% confidence interval (shaded band), which widens over the horizon as uncertainty accumulates. We interpret this band as an envelope of plausible baseline outcomes rather than a precise point estimate, using it to communicate both central tendency and dispersion. This baseline serves as a business-as-usual reference against which interventions are layered. In subsequent analyses, the baseline trajectories are systematically modified by scenario levers—such as decarbonization and data-center buildout—and by explicit electric-vehicle modules, enabling transparent stress testing of investment needs.
+
+We include two families of interventions on the baseline: (i) economy-wide decarbonization and data-center buildout, and (ii) transport electrification. For decarbonization/data centers, we define parametric share trajectories (logistic, piecewise exponential, and linear) that map the fraction of total electricity attributable to these drivers; multiplying each share by the baseline yields annual GWh paths. Transport electrification is represented with separate light and heavy-duty modules. Each module uses a Bass-type diffusion for fleet adoption and converts stock into energy via per-vehicle assumptions (annual kilometers, kWh/km, charging efficiency).In all panels, shaded bands depict the scenario envelope—from conservative to high-uptake cases—capturing uncertainty around adoption speed, utilization, technology efficiency, and policy execution. 
+
+
+
+x
+x
+x
+x
+
+Working with envelopes rather than single lines enables robust comparison of investment needs across generation, storage, and transmission. These interventions are layered transparently on the baseline so attribution to each driver remains explicit and reproducible.
+
+
 
 General equation: 
 
