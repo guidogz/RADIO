@@ -45,14 +45,24 @@ Demand is a primary source of model uncertainty, and planning decisions should b
 
 We include two families of interventions on the baseline: (i) economy-wide decarbonization and data-center buildout, and (ii) transport electrification. For decarbonization/data centers, we define parametric share trajectories (logistic, piecewise exponential, and linear) that map the fraction of total electricity attributable to these drivers; multiplying each share by the baseline yields annual GWh paths. Transport electrification is represented with separate light and heavy-duty modules. Each module uses a Bass-type diffusion for fleet adoption and converts stock into energy via per-vehicle assumptions (annual kilometers, kWh/km, charging efficiency).In all panels, shaded bands depict the scenario envelope—from conservative to high-uptake cases—capturing uncertainty around adoption speed, utilization, technology efficiency, and policy execution. 
 
+Figure 4.4 depicts the hourly demand profiles used in the model, expressed as per-unit of daily energy to allow shape comparisons across end uses. Each panel presents three representative profiles for a given demand class, with markers at hourly values and a shaded band showing the envelope between the minimum and maximum shapes. The Baseline panel contrasts a “Peak” profile with a pronounced evening ramp, a “Flat” profile with near-constant load, and a “Base” profile reflecting current diurnal variation. The Decarbonization & Data Centers panel represents additional industrial and data-center loads scheduled as “three shifts,” “two shifts,” and “round-the-clock,” allocating the same daily energy with different temporal concentrations depending on the industry class. EV-Light illustrates passenger EV charging strategies: “Smart Night” valley-filling, “Uncontrolled” arrival-driven evening charging, and a blended “Mean.” EV-Heavy captures fleet behavior: “Smart Night” depot charging, “Opportunity” daytime top-ups, and a balanced “Mean.” These shapes are paired with annual energy trajectories in scenario analysis to stress-test flexibility, storage, and transmission under alternative temporal patterns of emerging demand.
+
+.. figure:: Figures/Demand_profile.png
+   :align:   center
+   :width:   800 px
+
+   *Figure 4.4. “Scenario Load Profiles: Baseline, Decarbonization & Data Centers, EV-Light, EV-Heavy* 
 
 
-x
-x
-x
-x
+Figure 4.5 presents two complementary views: first, the baseline annual demand trajectory (business-as-usual) used as the reference for scenario perturbations; second, the hourly profiles employed for temporal allocation. In the profile panel, we include the base-year 2025 reference shape and a 2050 envelope that spans the range of plausible load shapes, from conservative to high-uptake cases. Together, these elements link long-run energy trajectories with diurnal load distribution for planning analysis. Working with envelopes rather than single lines enables robust comparison of investment needs across generation, storage, and transmission. These interventions are layered transparently on the baseline so attribution to each driver remains explicit and reproducible.
 
-Working with envelopes rather than single lines enables robust comparison of investment needs across generation, storage, and transmission. These interventions are layered transparently on the baseline so attribution to each driver remains explicit and reproducible.
+.. figure:: Figures/Detail_Demand_CR.png
+   :align:   center
+   :width:   800 px
+
+   *Figure 4.5. “nnual Demand Trajectory and Hourly Load Profiles for Costa Rica’s Electricity System* 
+
+
 
 
 
