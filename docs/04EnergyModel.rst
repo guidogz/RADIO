@@ -56,11 +56,11 @@ Figure 4.4 depicts the hourly demand profiles used in the model, expressed as pe
 
 Figure 4.5 presents two complementary views: first, the baseline annual demand trajectory (business-as-usual) used as the reference for scenario perturbations; second, the hourly profiles employed for temporal allocation. In the profile panel, we include the base-year 2025 reference shape and a 2050 envelope that spans the range of plausible load shapes, from conservative to high-uptake cases. Together, these elements link long-run energy trajectories with diurnal load distribution for planning analysis. Working with envelopes rather than single lines enables robust comparison of investment needs across generation, storage, and transmission. These interventions are layered transparently on the baseline so attribution to each driver remains explicit and reproducible.
 
-.. figure:: Figures/Detail_Demand_CR.png
+.. figure:: Figures/Agragated_demand_profile.png
    :align:   center
    :width:   800 px
 
-   *Figure 4.5. “nnual Demand Trajectory and Hourly Load Profiles for Costa Rica’s Electricity System* 
+   *Figure 4.5. “Annual Demand Trajectory and Hourly Load Profiles for Costa Rica’s Electricity System* 
 
 
 
