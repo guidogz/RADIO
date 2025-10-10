@@ -28,6 +28,7 @@ including generation, storage, and trade costs, while accounting for salvage val
         \sum_{s \in \text{storages}} 
         \frac{\text{TotalStorageCost}_{y,r,s}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
     \right]
+
     + 
     \sum_{y \in \text{year}} 
     \sum_{r,rr \in \text{regions}} 
@@ -39,6 +40,7 @@ including generation, storage, and trade costs, while accounting for salvage val
         \cdot \text{Export}_{y,rr,r,h,f}
         \cdot \text{YearlyDifferenceMultiplier}_{y}
     }{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
+    
     -
     \sum_{y \in \text{year}} \sum_{r \in \text{regions}} 
     \left[
