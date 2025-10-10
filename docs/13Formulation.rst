@@ -40,6 +40,7 @@ while subtracting the discounted salvage values at the end of the planning horiz
         \sum_{l \in \text{links}}
         \frac{\text{TotalTransmissionCost}_{y,l}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
     \right]
+  
     -
     \sum_{y \in \text{year}}
     \left[
