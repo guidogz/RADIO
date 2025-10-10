@@ -14,22 +14,52 @@ scope
 3.3 Objective function
 +++++++++++++++++++++++++++
 
-Objective function – total costs should be minimized
+The optimization problem minimizes the **total discounted system cost**,
+including generation, storage, and trade costs, while accounting for salvage values:
 
+.. math::
 
-# the objective function - total costs should be minimized
-@objective(ESM, Min, 
-    sum(TotalCost[y,r,t]/ (1+DiscountRate)^(y - minimum(year)) for t in technologies for r in regions, y in year) 
-   
-    + sum(TotalStorageCost[y,r,s]/ (1+DiscountRate)^(y - minimum(year)) for s in storages for r in regions, y in year)
-   
-    + sum(TradeCostFactor[f]*TradeDistance[r,rr] * Export[y,rr,r,h,f]  * YearlyDifferenceMultiplier[y] / (1+DiscountRate)^(y - minimum(year)) for h in hour, r in regions, rr in regions, f in fuels, y in year)
-  
-    - sum(SalvageValue[y, r, t] / (1+DiscountRate)^(y - minimum(year)) for t in technologies for r in regions, y in year)
-   
-    - sum(StorageSalvageValue[y, r, s] / (1+DiscountRate)^(y - minimum(year)) for s in storages for r in regions, y in year)
-    )
+    \min \; Z = 
+    \sum_{y \in \text{year}} \sum_{r \in \text{regions}} 
+    \left[
+        \sum_{t \in \text{technologies}} 
+        \frac{\text{TotalCost}_{y,r,t}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
+        +
+        \sum_{s \in \text{storages}} 
+        \frac{\text{TotalStorageCost}_{y,r,s}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
+    \right]
+    + 
+    \sum_{y \in \text{year}} 
+    \sum_{r,rr \in \text{regions}} 
+    \sum_{h \in \text{hour}} 
+    \sum_{f \in \text{fuels}} 
+    \frac{
+        \text{TradeCostFactor}_{f}
+        \cdot \text{TradeDistance}_{r,rr}
+        \cdot \text{Export}_{y,rr,r,h,f}
+        \cdot \text{YearlyDifferenceMultiplier}_{y}
+    }{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
+    -
+    \sum_{y \in \text{year}} \sum_{r \in \text{regions}} 
+    \left[
+        \sum_{t \in \text{technologies}} 
+        \frac{\text{SalvageValue}_{y,r,t}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
+        +
+        \sum_{s \in \text{storages}} 
+        \frac{\text{StorageSalvageValue}_{y,r,s}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
+    \right]
 
+where:
+
+- :math:`y` = planning year  
+- :math:`r, rr` = regions  
+- :math:`t` = generation technologies  
+- :math:`s` = storage technologies  
+- :math:`f` = fuels  
+- :math:`h` = time slices or hours  
+- :math:`\text{DiscountRate}` = annual discount rate  
+
+This formulation ensures that all future costs are discounted and salvage values are subtracted, yielding the **net present system cost** to be minimized.
 
 
 3.4 Constraints
