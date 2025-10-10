@@ -16,24 +16,20 @@ scope
 
 Objective function – total costs should be minimized
 
-.. math::
 
-   \min Z =
-   \sum_{y \in Y} \sum_{r \in R} \sum_{t \in T}
-   \frac{TotalCost_{y,r,t}}{(1 + DiscountRate)^{y - \min(Y)}}
-
-   + \sum_{y \in Y} \sum_{r \in R} \sum_{s \in S}
-   \frac{TotalStorageCost_{y,r,s}}{(1 + DiscountRate)^{y - \min(Y)}}
+# the objective function - total costs should be minimized
+@objective(ESM, Min, 
+    sum(TotalCost[y,r,t]/ (1+DiscountRate)^(y - minimum(year)) for t in technologies for r in regions, y in year) 
+   
+    + sum(TotalStorageCost[y,r,s]/ (1+DiscountRate)^(y - minimum(year)) for s in storages for r in regions, y in year)
+   
+    + sum(TradeCostFactor[f]*TradeDistance[r,rr] * Export[y,rr,r,h,f]  * YearlyDifferenceMultiplier[y] / (1+DiscountRate)^(y - minimum(year)) for h in hour, r in regions, rr in regions, f in fuels, y in year)
   
-   + \sum_{y \in Y} \sum_{r \in R} \sum_{rr \in R} \sum_{h \in H} \sum_{f \in F}
-   \frac{TradeCostFactor_{f} \cdot TradeDistance_{r,rr} \cdot Export_{y,rr,r,h,f} \cdot YearlyDifferenceMultiplier_{y}}
-   {(1 + DiscountRate)^{y - \min(Y)}}
+    - sum(SalvageValue[y, r, t] / (1+DiscountRate)^(y - minimum(year)) for t in technologies for r in regions, y in year)
    
-   - \sum_{y \in Y} \sum_{r \in R} \sum_{t \in T}
-   \frac{SalvageValue_{y,r,t}}{(1 + DiscountRate)^{y - \min(Y)}}
-   
-   - \sum_{y \in Y} \sum_{r \in R} \sum_{s \in S}
-   \frac{StorageSalvageValue_{y,r,s}}{(1 + DiscountRate)^{y - \min(Y)}}
+    - sum(StorageSalvageValue[y, r, s] / (1+DiscountRate)^(y - minimum(year)) for s in storages for r in regions, y in year)
+    )
+
 
 
 3.4 Constraints
