@@ -32,17 +32,14 @@ while subtracting the discounted salvage values at the end of the planning horiz
         \left(
             \sum_{t \in \text{technologies}}
             \frac{\text{TotalCost}_{y,r,t}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
-           
-           +
+            +
             \sum_{s \in \text{storages}}
             \frac{\text{TotalStorageCost}_{y,r,s}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
         \right)
-       
-         +
+        +
         \sum_{l \in \text{links}}
         \frac{\text{TotalTransmissionCost}_{y,l}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
     \right]
-   
     -
     \sum_{y \in \text{year}}
     \left[
@@ -50,12 +47,10 @@ while subtracting the discounted salvage values at the end of the planning horiz
         \left(
             \sum_{t \in \text{technologies}}
             \frac{\text{SalvageValue}_{y,r,t}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
-            
             +
             \sum_{s \in \text{storages}}
             \frac{\text{StorageSalvageValue}_{y,r,s}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
         \right)
-       
         +
         \sum_{l \in \text{links}}
         \frac{\text{TransmissionSalvageValue}_{y,l}}{(1+\text{DiscountRate})^{(y - \min(\text{year}))}}
